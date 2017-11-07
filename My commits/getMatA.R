@@ -12,7 +12,7 @@ getMatA<-function(sp){
 
 
 #Usage
-#library(Mage)#Mage is recent available package by COM(P)ADRE Team
-#load("~/COMADRE_v.2.0.1.RData")
-#getMatA("Ursus_maritimus")
+library(Mage)#Mage is recent available package by COM(P)ADRE Team
+load("~/COMADRE_v.2.0.1.RData")
+getMatA("Ursus_maritimus")
 
