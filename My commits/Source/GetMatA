@@ -1,0 +1,6 @@
+getMatA<-function(sp){
+  sp<-as.character(sp)
+  id<-grep(sp,comadre$metadata$SpeciesAccepted)
+  Matrices<-comadre$mat[(id)]
+  lapply(Matrices, get,x="matA")
+}
