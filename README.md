@@ -1,3 +1,19 @@
+#### Hi dears, 
+
+My name is Gabriel and I'm working with COMADRE Database to my PhD project. I new in Github, demographic analysis and I'm loving this.
+I fork Com(p)adreDB to my own Github to start and follow commits from Owen Jones and Rob Salguero-Gomez. Of course I will need few new codes to perform the analysis of my project and will upload im my forked CompadreDB repository and to organize I will put all together in ["My Commits"](https://github.com/Ecosantos/compadreDB/tree/master/My%20commits) to you know what they are original contributions.
+
+The official README of COMPADREDB follow below. Any questions specific about ["My Commits"](https://github.com/Ecosantos/compadreDB/tree/master/My%20commits) mail me ssantos.gabriel@gmail.com. 
+
+Of course course, visite https://github.com/jonesor/compadreDB will be the best font of content to you learn more about COMADRE and COMPADRE.
+
+Thanks
+
+-------
+#### Original README Below
+
+
+
 com(p)adreDB
 ==========
 
