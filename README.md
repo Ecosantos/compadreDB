@@ -5,7 +5,7 @@ I fork Com(p)adreDB to my own Github to start and follow commits from Owen Jones
 
 The official README of COMPADREDB follow below. Any questions specific about ["My Commits"](https://github.com/Ecosantos/compadreDB/tree/master/My%20commits) mail me ssantos.gabriel@gmail.com. 
 
-Of course course, visite https://github.com/jonesor/compadreDB will be the best font of content to you learn more about COMADRE and COMPADRE.
+Of course, visite https://github.com/jonesor/compadreDB will be the best way to learn more about COMADRE and COMPADRE.
 
 Thanks
 
