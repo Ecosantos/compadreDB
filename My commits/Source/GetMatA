@@ -1,6 +1,36 @@
-getMatA<-function(sp){
+#Get values of matA to each species 
+#Obtem valores de matA para cada espécie desejada
+
+
+##===================================
+getMatA<-function(sp, method = "SpeciesAccepted"){
+# Usage: 
+# You have chooice filter matrix from "speciesAccetpted" or "SpeciesAuthor" column 
+# To it use method="your choice colmun"
   sp<-as.character(sp)
-  id<-grep(sp,comadre$metadata$SpeciesAccepted)
-  Matrices<-comadre$mat[(id)]
+METHOD<- c("SpeciesAccepted", "SpeciesAuthor")
+    method<- match.arg(method, METHOD)
+
+
+if(method == "SpeciesAccepted")
+	id<-grep(sp,comadre$metadata$SpeciesAccepted)
+
+if(method =="SpeciesAuthor")
+	id<-grep(sp,comadre$metadata$SpeciesAuthor)
+
+Matrices<-comadre$mat[(id)]
   lapply(Matrices, get,x="matA")
 }
+
+
+#Usage
+library(Mage)#Mage is recent available package by COM(P)ADRE Team
+load("~/COMADRE_v.2.0.1.RData")
+
+args(getMatA)
+# To select from SpeciesAccepted column
+getMatA("Marmota_flaviventris",method="SpeciesAccepted")
+
+# To select from SpeciesAuthor column
+getMatA("Marmota_flaviventris_2",method="SpeciesAuthor")
+getMatA("Marmota_flaviventris_3",method="SpeciesAuthor")
