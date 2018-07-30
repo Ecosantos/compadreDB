@@ -13,10 +13,10 @@ METHOD<- c("SpeciesAccepted", "SpeciesAuthor")
 
 
 if(method == "SpeciesAccepted")
-	id<-grep(sp,comadre$metadata$SpeciesAccepted)
+	id<-grep(paste("^",sp,"$", sep=""),comadre$metadata$SpeciesAccepted)
 
 if(method =="SpeciesAuthor")
-	id<-grep(sp,comadre$metadata$SpeciesAuthor)
+	id<-grep(paste("^",sp,"$", sep=""),comadre$metadata$SpeciesAuthor)
 
 Matrices<-comadre$mat[(id)]
   lapply(Matrices, get,x="matA")
